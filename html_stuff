@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="_css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="_themes/default/default.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Castro and Company | Accountants and Advisors serving the Washington DC area</title>
+<link href="_css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css" media="screen">
+	@import url("./_css/main_nav.css");
+</style>
+<script language="JavaScript1.2" type="text/javascript" src="_scripts_site/mm_css_menu.js"></script>
+</head>
+
+<body onload="MM_preloadImages('_images_nav/main_nav_r1_c1_s2.gif','_images_nav/main_nav_r1_c2_s2.gif','_images_nav/main_nav_r1_c3_s2.gif','_images_nav/main_nav_r1_c4_s2.gif','_images_nav/main_nav_r1_c5_s2.gif','_images_nav/main_nav_r1_c6_s2.gif','_images_nav/main_nav_r1_c7_s2.gif');">
+<div id="top_bar">
+<div id="top_bar_email"><a href="mailto:info@castroco.com">Email Us</a></div>
+</div>
+<div id="wrapper">
+<div id="wrapper_inside">
+<div id="header">
+<div id="slogan_area"><img alt="Where Our Clients Are Always The Bottom Line" src="_images/slogan.png" height="26" width="396" /></div>
+<div id="logo_area"><a href="index.html"><img alt="Castro and Company logo" src="_images/logo.gif" width="292" height="73" /></a></div>
+<div id="main_nav_area">
+<div id="FWTableContainer971975172">
+<table style="display: inline-table;" border="0" cellspacing="0" cellpadding="0" width="560"><!-- fwtable fwsrc="main_nav.png" fwpage="Page 1" fwbase="main_nav.gif" fwstyle="Dreamweaver" fwdocid = "971975172" fwnested="0" -->
+<tbody>
+<tr>
+<td><img border="0" alt="" src="_images_nav/spacer.gif" width="53" height="1" /></td>
+<td><img border="0" alt="" src="_images_nav/spacer.gif" width="73" height="1" /></td>
+<td><img border="0" alt="" src="_images_nav/spacer.gif" width="75" height="1" /></td>
+<td><img border="0" alt="" src="_images_nav/spacer.gif" width="66" height="1" /></td>
+<td><img border="0" alt="" src="_images_nav/spacer.gif" width="135" height="1" /></td>
+<td><img border="0" alt="" src="_images_nav/spacer.gif" width="71" height="1" /></td>
+<td><img border="0" alt="" src="_images_nav/spacer.gif" width="87" height="1" /></td>
+<td><img border="0" alt="" src="_images_nav/spacer.gif" width="1" height="1" /></td>
+</tr>
+<tr>
+<td><a onmouseover="MM_swapImage('main_nav_r1_c1','','_images_nav/main_nav_r1_c1_s2.gif',1);" onmouseout="MM_swapImgRestore();" href="index.html"><img id="main_nav_r1_c1" border="0" name="main_nav_r1_c1" alt="" src="_images_nav/main_nav_r1_c1.gif" width="53" height="49" /></a></td>
+<td><a onmouseover="MM_menuShowMenu('MMMenuContainer1102173256_0', 'MMMenu1102173256_0',0,50,'main_nav_r1_c2');MM_swapImage('main_nav_r1_c2','','_images_nav/main_nav_r1_c2_s2.gif',1);" onmouseout="MM_swapImgRestore();MM_menuStartTimeout(200);" href="about.html"><img id="main_nav_r1_c2" border="0" name="main_nav_r1_c2" alt="" src="_images_nav/main_nav_r1_c2.gif" width="73" height="49" /></a></td>
+<td><a onmouseover="MM_menuShowMenu('MMMenuContainer0008094011_1', 'MMMenu0008094011_1',0,50,'main_nav_r1_c3');MM_swapImage('main_nav_r1_c3','','_images_nav/main_nav_r1_c3_s2.gif',1);" onmouseout="MM_swapImgRestore();MM_menuStartTimeout(200);" href="services.html"><img id="main_nav_r1_c3" border="0" name="main_nav_r1_c3" alt="" src="_images_nav/main_nav_r1_c3.gif" width="75" height="49" /></a></td>
+<td><a onmouseover="MM_swapImage('main_nav_r1_c4','','_images_nav/main_nav_r1_c4_s2.gif',1);" onmouseout="MM_swapImgRestore();" href="clients.html"><img id="main_nav_r1_c4" border="0" name="main_nav_r1_c4" alt="" src="_images_nav/main_nav_r1_c4.gif" width="66" height="49" /></a></td>
+<td><a onmouseover="MM_menuShowMenu('MMMenuContainer1102174538_1', 'MMMenu1102174538_1',0,50,'main_nav_r1_c5');MM_swapImage('main_nav_r1_c5','','_images_nav/main_nav_r1_c5_s2.gif',1);" onmouseout="MM_swapImgRestore();MM_menuStartTimeout(200);" href="contract_vehicles.html"><img id="main_nav_r1_c5" border="0" name="main_nav_r1_c5" alt="" src="_images_nav/main_nav_r1_c5.gif" width="135" height="49" /></a></td>
+<td><a onmouseover="MM_menuShowMenu('MMMenuContainer1102174655_2', 'MMMenu1102174655_2',0,50,'main_nav_r1_c6');MM_swapImage('main_nav_r1_c6','','_images_nav/main_nav_r1_c6_s2.gif',1);" onmouseout="MM_swapImgRestore();MM_menuStartTimeout(200);" href="careers.html"><img id="main_nav_r1_c6" border="0" name="main_nav_r1_c6" alt="" src="_images_nav/main_nav_r1_c6.gif" width="71" height="49" /></a></td>
+<td><a onmouseover="MM_swapImage('main_nav_r1_c7','','_images_nav/main_nav_r1_c7_s2.gif',1);" onmouseout="MM_swapImgRestore();" href="contact_us.html"><img id="main_nav_r1_c7" border="0" name="main_nav_r1_c7" alt="" src="_images_nav/main_nav_r1_c7.gif" width="87" height="49" /></a></td>
+<td><img border="0" alt="" src="_images_nav/spacer.gif" width="1" height="49" /></td>
+</tr>
+</tbody>
+</table>
+<div id="MMMenuContainer1102173256_0">
+<div id="MMMenu1102173256_0" onmouseover="MM_menuResetTimeout();" onmouseout="MM_menuStartTimeout(200);"><a id="MMMenu1102173256_0_Item_0" class="MMMIFVStyleMMMenu1102173256_0" onmouseover="MM_menuOverMenuItem('MMMenu1102173256_0');" href="about.html#who">Who&nbsp;Are&nbsp;We? </a><a id="MMMenu1102173256_0_Item_1" class="MMMIVStyleMMMenu1102173256_0" onmouseover="MM_menuOverMenuItem('MMMenu1102173256_0');" href="about.html#news">News </a><a id="MMMenu1102173256_0_Item_2" class="MMMIVStyleMMMenu1102173256_0" onmouseover="MM_menuOverMenuItem('MMMenu1102173256_0');" href="about.html#did_you_know">Did&nbsp;You&nbsp;Know? </a><a id="MMMenu1102173256_0_Item_3" class="MMMIVStyleMMMenu1102173256_0" onmouseover="MM_menuOverMenuItem('MMMenu1102173256_0','1');" href="about.html#why_castro"><span class="MMMenuItemSpanMMMenu1102173256_0">Why&nbsp;Castro?</span> <img class="MMArrowStyleMMMenu1102173256_0" alt="" src="_images_nav/arrows.gif" /> </a><a id="MMMenu1102173256_0_Item_4" class="MMMIVStyleMMMenu1102173256_0" onmouseover="MM_menuOverMenuItem('MMMenu1102173256_0');" href="about.html#our_leadership_team">Our&nbsp;Leadership&nbsp;Team </a></div>
+<div id="MMMenu1102173256_0_1" onmouseover="MM_menuResetTimeout();" onmouseout="MM_menuStartTimeout(200);"><a id="MMMenu1102173256_0_1_Item_0" class="MMMIFVStyleMMMenu1102173256_0_1" onmouseover="MM_menuOverMenuItem('MMMenu1102173256_0_1');" href="about.html#dedicated">We&nbsp;Are&nbsp;Dedicated </a><a id="MMMenu1102173256_0_1_Item_1" class="MMMIVStyleMMMenu1102173256_0_1" onmouseover="MM_menuOverMenuItem('MMMenu1102173256_0_1');" href="about.html#knowledgeable">We&nbsp;Are&nbsp;Knowledgeable </a><a id="MMMenu1102173256_0_1_Item_2" class="MMMIVStyleMMMenu1102173256_0_1" onmouseover="MM_menuOverMenuItem('MMMenu1102173256_0_1');" href="about.html#trusted">We&nbsp;Are&nbsp;Trusted </a></div>
+</div>
+<div id="MMMenuContainer0008094011_1">
+<div id="MMMenu0008094011_1" onmouseover="MM_menuResetTimeout();" onmouseout="MM_menuStartTimeout(200);"><a id="MMMenu0008094011_1_Item_0" class="MMMIFVStyleMMMenu0008094011_1" onmouseover="MM_menuOverMenuItem('MMMenu0008094011_1');" href="services.html#audit_services">Audit&nbsp;Services </a><a id="MMMenu0008094011_1_Item_1" class="MMMIVStyleMMMenu0008094011_1" onmouseover="MM_menuOverMenuItem('MMMenu0008094011_1');" href="services.html#advisory_services">Advisory&nbsp;Services </a><a id="MMMenu0008094011_1_Item_2" class="MMMIVStyleMMMenu0008094011_1" onmouseover="MM_menuOverMenuItem('MMMenu0008094011_1');" href="services.html#accounting_services">Accounting&nbsp;Services </a></div>
+</div>
+<div id="MMMenuContainer1102174538_1">
+<div id="MMMenu1102174538_1" onmouseover="MM_menuResetTimeout();" onmouseout="MM_menuStartTimeout(200);"><a id="MMMenu1102174538_1_Item_0" class="MMMIFVStyleMMMenu1102174538_1" onmouseover="MM_menuOverMenuItem('MMMenu1102174538_1');" href="contract_vehicles.html#gsa_info">GSA PSS 520 </a><a id="MMMenu1102174538_1_Item_1" class="MMMIVStyleMMMenu1102174538_1" onmouseover="MM_menuOverMenuItem('MMMenu1102174538_1');" href="contract_vehicles.html#small">Small Business Set Aside </a><a id="MMMenu1102174538_1_Item_2" class="MMMIVStyleMMMenu1102174538_1" onmouseover="MM_menuOverMenuItem('MMMenu1102174538_1');" href="contract_vehicles.html#general">General Information </a></div>
+</div>
+<div id="MMMenuContainer1102174655_2">
+<div id="MMMenu1102174655_2" onmouseover="MM_menuResetTimeout();" onmouseout="MM_menuStartTimeout(200);"><a id="MMMenu1102174655_2_Item_0" class="MMMIFVStyleMMMenu1102174655_2" onmouseover="MM_menuOverMenuItem('MMMenu1102174655_2');" href="careers.html#a_career_at_castro">A&nbsp;Career&nbsp;at&nbsp;Castro </a><a id="MMMenu1102174655_2_Item_1" class="MMMIVStyleMMMenu1102174655_2" onmouseover="MM_menuOverMenuItem('MMMenu1102174655_2');" href="careers.html#firm_culture">Firm&nbsp;Culture </a><a id="MMMenu1102174655_2_Item_2" class="MMMIVStyleMMMenu1102174655_2" onmouseover="MM_menuOverMenuItem('MMMenu1102174655_2');" href="careers.html#join_our_team">Join&nbsp;Our&nbsp;Team </a></div>
+</div>
+</div>
+</div>
+</div>
+<div id="main_image_area">
+<div class="slider-wrapper theme-default">
+<div class="ribbon"></div>
+<div id="slider" class="nivoSlider"><a href="about.html#news"><img title="Castro Continues its Sustained Growth With Multiple Contract Wins!" alt="" src="_images/rotating_image_1.jpg" /></a> <img title="At Castro, Diversity is an Integral Part of our Business." alt="" src="_images/rotating_image_2.jpg" /> <a href="services.html"><img title="Castro has become a Trusted Advisor for the Federal Government!" alt="" src="_images/rotating_image_3.jpg" /></a></div>
+</div>
+</div>
+<script type="text/javascript" src="_scripts_site/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="_scripts_site/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">// <![CDATA[
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    
+// ]]></script>
+<div id="main_3_column_area_1">
+<div id="column_3_left">
+<h1><a href="about.html#dedicated">Dedicated</a></h1>
+<p><a href="about.html#dedicated"><img alt="Castro and Company is Trusted" src="_images/stable.jpg" width="280" height="131" /></a></p>
+<p>We at Castro &amp; Company are proud of our consistent dedication in providing the highest quality audit, advisory, and accounting services...</p>
+<p><a onmouseover="MM_swapImage('Image6','','_images/button_more_hot.png',1)" onmouseout="MM_swapImgRestore()" href="about.html#dedicated"><img id="Image6" border="0" name="Image6" alt="more button" src="_images/button_more.png" width="71" height="40" /></a></p>
+</div>
+<div id="column_3_middle">
+<h1><a href="about.html#knowledgeable">Knowledgeable</a></h1>
+<p><a href="about.html#knowledgeable"><img alt="Castro and Company is knowledgeable" src="_images/smart_image.jpg" width="280" height="131" /></a></p>
+<p>Castro &amp; Company's philosophy of service is based on our commitment to our clients, regardless of the size or scope of the engagement...</p>
+<p><a onmouseover="MM_swapImage('Image5','','_images/button_more_hot.png',1)" onmouseout="MM_swapImgRestore()" href="about.html#knowledgeable"><img id="Image5" border="0" name="Image5" alt="more buton" src="_images/button_more.png" width="71" height="40" /></a></p>
+</div>
+<div id="column_3_right">
+<h1><a href="about.html#trusted">Trusted</a></h1>
+<p><a href="about.html#trusted"><img alt="Castro and Company is Trusted" src="_images/trusted_image.jpg" width="280" height="131" /></a></p>
+<p>Castro &amp; Company has established and maintained a high level of client trust and confidence by having a strong customer focus through the knowledge of and...</p>
+<p><a onmouseover="MM_swapImage('Image7','','_images/button_more_hot.png',1)" onmouseout="MM_swapImgRestore()" href="about.html#trusted"><img id="Image7" border="0" name="Image7" alt="more button" src="_images/button_more.png" width="71" height="40" /></a></p>
+</div>
+</div>
+<div id="main_2_column_area_1">
+<div id="column_2_left">
+<div id="column_2_left_content_1">
+<h2><a href="about.html#why_castro">Why Have So Many Federal Government <br />Agencies Selected Castro<span class="question_mark">?</span></a></h2>
+<p>Most of our clients are dedicated to serving the American people, and we're dedicated to helping them accomplish their mission. We provide audit, advisory and accounting services that helps them achieve transparency and accountability. Our extra effort is reflected in every detail of our work and our commitment to our clients...</p>
+<p><a href="about.html#why_castro">&gt;&gt; LEARN MORE</a></p>
+</div>
+<div id="column_2_left_content_2">
+<h2><a href="careers.html#join_our_team">Join Our Team</a></h2>
+<p><a href="careers.html#join_our_team"><img alt="join Castro and Company" src="_images/join_our_team_image.jpg" width="394" height="163" /></a></p>
+<p>If you&rsquo;re looking for a fulfilling, challenging, and rewarding career, not just a job, then Castro &amp; Company is the right place for you. We give each Castro &amp; Company employee the chance to develop as a professional, and contribute to a growing and diverse CPA Firm.</p>
+<p><a href="careers.html#join_our_team">&gt;&gt; LEARN MORE</a></p>
+</div>
+</div>
+<div id="column_2_right">
+<div id="column_2_right_content_1">
+<h2><a href="contract_vehicles.html#gsa_info">GSA Info</a></h2>
+<p>GSA Financial and Business Solutions (FABS) Schedule GS-23F-0038U</p>
+<p><a href="contract_vehicles.html#gsa_info">&gt;&gt; LEARN MORE</a></p>
+</div>
+<div id="column_2_right_content_2">
+<h2><a href="about.html#news">News</a></h2>
+<p>Because of our continued strong and dedicated performance, Castro &amp; Company is frequently re-awarded contracts on which we've previously worked, and has had some...</p>
+<p><a href="about.html#news">&gt;&gt; LEARN MORE</a></p>
+</div>
+<div id="column_2_right_content_3">
+<h2><a href="clients.html">Clients</a></h2>
+<p><strong>Client Service is our #1 Priority and it Shows! </strong>- &nbsp;Because of our continued strong and dedicated performance, Castro &amp; Company is frequently...</p>
+<p><a href="clients.html">&gt;&gt; LEARN MORE</a></p>
+</div>
+<div id="column_2_right_content_4">
+<h2><a href="about.html#did_you_know">Did You Know<span class="question_mark">?</span></a></h2>
+<p>Castro &amp; Company has become a Corporate Partner of the Association of Government Accountants (AGA). The AGA is the premier...</p>
+<p><a href="about.html#did_you_know">&gt;&gt; LEARN MORE</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="bottom_bar">
+<div id="bottom_bar_content_area">
+<div id="bottom_bar_content_area_left">
+<p>Follow us on the web<a href="https://www.facebook.com/pages/Castro-Company/144307102284797" target="_blank"><img alt="Facebook" src="_images/facebook.png" width="26" height="26" /></a><a href="http://www.linkedin.com/company/castro-&amp;-company" target="_blank"><img alt="Linked In" src="_images/linkedin.png" width="26" height="26" /></a><a href="http://twitter.com/#!/CastroandCo" target="_blank"><img alt="Twitter" src="_images/twitter.png" width="26" height="26" /></a></p>
+<p><a href="index.html">Home</a> | <a href="about.html">About Us</a> | <a href="services.html">Services</a> | <a href="clients.html">Clients</a> | <a href="contract_vehicles.html">Contract Vehicles</a> | <a href="careers.html">Careers</a> | <a href="contact_us.html">Contact Us</a></p>
+</div>
+<div id="bottom_bar_content_area_right">
+<p>GSA PSS Schedule GS-23F-0038U<br />A Minority-Owned Small Business</p>
+<p>1711 King Street&nbsp;| Suite&nbsp;C | Alexandria, VA 22314<br />Main: (703) 229-4440 | Fax: (703) 859-7603</p>
+<p>Copyright &copy;2015 Castro &amp; Company LLC</p>
+</div>
+</div>
+</div>
+</body>
+</html>
