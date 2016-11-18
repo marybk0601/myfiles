@@ -1,0 +1,79 @@
+<?php
+	/*
+	Template Name: Gallery
+	*/
+get_header(); ?>
+	<?php if(have_posts()) : while(have_posts()) : the_post(); 
+		$current_page_id = get_the_id(); 
+		$current_page_slug = $post->post_name; 
+		$current_page_parent = $post->post_parent ? get_the_title($post->post_parent) : get_the_title();
+	?>
+    
+    
+    <div class="featured_top_area_wrapper">
+      <h2>Featured Projects</h2>
+      <div class="featured_top_items_row container"><?php echo do_shortcode('[query id=1]'); ?></div>
+    </div>
+    
+		<div id="gallery-content"><div class="container">
+		<h1><?php the_title(); ?></h1>
+		<article class="page_wrap gallery_page" id="page_<?php the_id(); ?>">
+				<div class="content"><?php the_content(); ?></div>
+				<div id="project_thumbs">
+					<?php $show_project_titles = get_field('show_project_titles') ? true : false;
+					$repeater = get_field('projects');
+					foreach($repeater as $key => $row) {
+						$column_id[$key] = $row['title'];
+					}
+					array_multisort($column_id, SORT_ASC, $repeater);
+					$j = 0;
+					foreach($repeater as $project) : $j++;
+						$images = $project['gallery'];
+						$cat_array = 'cat_'.implode(' cat_', $project['proj_categories']); 
+						if($images) : 
+							if($show_project_titles) : ?>
+								<a href="#project_<?php echo $j; ?>" class="project_thumb <?php echo $cat_array; ?>" data-toggle="modal" data-target="#project_<?php echo $j; ?>" style="background-image: url('<?php echo $images[0]['sizes']['thumbnail']; ?>');"><div class="overlay"></div><span><?php echo $project['title']; ?></span></a>
+							<?php else : ?>
+								<a href="#project_<?php echo $j; ?>" class="project_thumb <?php echo $cat_array; ?>" data-toggle="modal" data-target="#project_<?php echo $j; ?>" style="background-image: url('<?php echo $images[0]['sizes']['thumbnail']; ?>');"></a>
+							<?php endif;
+						endif; ?>
+						<div id="project_<?php echo $j; ?>" class="modal fade project" tabindex="-1" role="dialog" aria-labelledby="carousel_<?php echo $j; ?>" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+							        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+									<div id="carousel_<?php echo $j; ?>" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
+										<div class="carousel-inner">
+											<?php $i = 0; foreach($images as $image) : ?>
+												<div class="item<?php echo (!$i++) ? ' active' : ''; ?>">
+													<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+													<?php if($image['title'] || $image['caption']) { ?>
+														<div class="carousel-caption">
+															<?php echo $image['title'] ? '<h3>' . $image['title'] . '</h3>' : ''; ?>
+															<?php echo $image['caption'] ? '<p>' . $image['caption'] . '</p>' : ''; ?>
+														</div>
+													<?php } ?>
+												</div>
+											<?php $i++; endforeach; ?>
+										</div>
+										<?php if(count($images) > 1) { ?>
+											<a class="left carousel-control" href="#carousel_<?php echo $j; ?>" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+											<a class="right carousel-control" href="#carousel_<?php echo $j; ?>" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+										<?php } ?>
+									</div>
+								</div>
+							</div>
+						</div>
+					<?php endforeach; ?>
+				</div>
+		</article>
+		<div class="subpage_nav">
+				<ul class="service-nav categories">
+					<?php while(have_rows('project_categories', 'options')) : the_row();
+						$category = strtolower(str_replace(' ', '_', get_sub_field('category')));
+						echo '<li class="cat_'.$category.'"><a href="cat_'.$category.'" data-name="'.get_sub_field('category').'">'.get_sub_field('category').'</a></li>';
+					endwhile; ?>
+				</ul>
+		</div>
+		</div></div>
+	<?php endwhile; endif; ?>
+<?php get_footer(); ?>
